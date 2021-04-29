@@ -10,7 +10,6 @@ export default function Logout() {
       await m.user.logout();
       console.log(await m.user.isLoggedIn());
       router.push("/");
-      await removeCookie();
     } catch {
       (err) => console.error(err);
     }
@@ -18,7 +17,7 @@ export default function Logout() {
   return (
     <div className="flex justify-end items-center">
       <button
-        className="my-2 px-6 py-2 rounded-xl border border-2 border-blue-800 text-blue-900 hover:bg-blue-800 hover:text-blue-50 font-semibold"
+        className=" bg-gray-100 my-2 px-6 py-2 rounded-xl border-2 border-blue-800 text-blue-900 hover:bg-blue-800 hover:text-blue-50 font-semibold"
         onClick={logoutUser}
       >
         Logout
