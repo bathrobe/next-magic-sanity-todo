@@ -1,5 +1,5 @@
-## Starting Template for a Sanity Tutorial
-We'll be building an authenticated todo app using the following tools:
+## Starting Template for Sanity Guest Author Tutorial
+Hello! This is a boilerplate starter for a tutorial. We'll be building an authenticated todo app using the following tools:
 
 - [Next.js](https://nextjs.org/)
 - [Magic.link](https://magic.link)
