@@ -1,6 +1,6 @@
 import useAuth from "../hooks/useAuth";
 import Logout from "../components/Logout";
-export default function Home() {
+export default function Todos() {
   const { user, loading } = useAuth();
 
   return (
