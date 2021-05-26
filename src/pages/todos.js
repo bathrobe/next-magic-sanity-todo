@@ -88,8 +88,6 @@ const handleDelete = async (selectedTodo) => {
   fetchTodos();
 };
 
-console.log(todoList)
-
   return (
     <TodoContext.Provider value={{handleDelete, fetchTodos}}>
       {/* all your rendered JSX */}
