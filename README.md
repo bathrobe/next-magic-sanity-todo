@@ -1,12 +1,13 @@
-## Starting Template for Sanity Guest Author Tutorial
-Hello! This is a boilerplate starter for a tutorial. We'll be building an authenticated todo app using the following tools:
+## Todo App with Next.js, Magic.link, and Sanity
+This is a simple todo app set up for use in Sanity Studio. I made it for a tutorial.
+Uses:
 
 - [Next.js](https://nextjs.org/)
 - [Magic.link](https://magic.link)
 - [Sanity](https://sanity.io)
 - [Tailwind](https://tailwindcss.com)
 
-The starter has the auth code already implemented c/o [Eric Adamski](https://vercel.com/blog/simple-auth-with-magic-link-and-nextjs).
+Auth code already implemented c/o [Eric Adamski](https://vercel.com/blog/simple-auth-with-magic-link-and-nextjs).
 Just add your the following values to a `.env.local` file:
 
 ```
