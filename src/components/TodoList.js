@@ -6,10 +6,10 @@ export default function TodoList({ todoList, handleDelete, user }) {
       <ul>
 			{/*if there are todos in the list...*/}
         {todoList.length >= 1
-          ? todoList.map((todo, idx) => {
+          ? todoList.map((todo) => {
 			//map only the user's todos
               return user.email == todo.userEmail ? (
-                <Todo key={idx} todo={todo} />
+                <Todo key={todo._id} todo={todo} />
               ) : (
                 ""
               );
